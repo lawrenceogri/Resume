@@ -1,1 +1,3 @@
-This is my resume and it's open source :)
+This is my __resume__ and it's open source :)
+
+View this template on:  https://lawrenceogri.github.io/Resume/
