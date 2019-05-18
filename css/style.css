@@ -1,0 +1,139 @@
+@font-face{
+	font-family: Comfortaa;
+	src: url("../font/Comfortaa-Bold.ttf");
+}
+
+@font-face{
+	font-family: Gang;
+	src: url("../font/Gang.ttf");
+}
+
+body{
+	line-height: 1.8;
+	margin: auto auto;
+}
+
+h1{
+	font-family: Gang;
+	color: rgb(104, 197, 197);
+	font-size: 50px;
+	margin-bottom: 10px;
+	font-weight: normal;
+	
+}
+
+h2{
+	font-weight: normal;
+	font-size: 40px;
+
+}
+
+h1, h2{
+	display: inline-block;
+	
+}
+
+h3{
+	font-family: Comfortaa;
+	font-size: 16px;
+	font-weight: bolder;
+	color: grey;
+	width: 97%;
+	border-top: 1px solid rgb(104, 197, 197);
+	padding-top: 15px;
+
+}
+
+.name{
+	display: inline-block;
+	width: 50%;
+	min-height: 130px;
+
+}
+
+img{
+	/* background: rgb(104, 197, 197); */
+	
+	display: inline-block;
+	
+}
+
+.inline{
+	width: 50%;
+	display: inline-block;
+	min-height: 130px;
+	float: right;
+
+	
+}
+
+
+
+img+p{
+	display: inline-block;
+	margin-bottom: 8px;
+}
+
+.left{
+	float: left;
+	width: 45%;
+	border-right: 1px solid rgb(104, 197, 197);
+	
+}
+
+.right{
+	float: right;
+	width: 55%;
+	padding-left: 12px;
+	
+	
+
+}
+
+hr{
+	width: 70%;
+}
+
+.right p, ul{
+	margin: 0;
+}
+
+.clear{
+	display: block;
+	clear: both;
+}
+
+.footer{
+	margin: 0 auto;
+	display: block;
+	width: 80%;
+	/* border-top: 1px solid  rgb(104, 197, 197); */
+	/* border-bottom: 1px solid  rgb(104, 197, 197); */
+	height: 34px;
+	
+}
+
+
+.footer img{
+	width: 35px; 
+	margin-left: 40px;
+	
+}
+
+.footer div{
+	width: 70%;
+	margin: 0 auto;
+	height: 40px;
+	text-align: center;
+
+
+}
+
+.top{
+	margin-top: 5px;
+}
+
+a{
+	color: inherit;
+	
+}
